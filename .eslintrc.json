@@ -32,6 +32,7 @@
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "camelcase": "off",
+    "@typescript-eslint/ban-types": "warn",
     "no-use-before-define": "off",
     // "@typescript-eslint/no-use-before-define": "warn",
     // "import/no-unresolved": "error",
