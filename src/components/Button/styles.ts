@@ -16,4 +16,9 @@ export const Container = styled.button`
   &:hover {
     background: ${shade(0.2, '#ff9000')};
   }
+  &:focus-within {
+    background: ${shade(0.5, '#312e38')};
+    box-shadow: 0 0 3pt 2pt #ff9000;
+    color: #ff9000;
+  }
 `;
